@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -196,3 +196,15 @@ span {
     margin: 10px;
     font-size: 20px;
 }
+
+.portfolio {
+    background-color: #2f2f2f;
+    height: 700px;
+    padding-bottom: 30px;
+}
+
+.portfolio-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
