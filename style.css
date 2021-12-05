@@ -263,3 +263,26 @@
         padding: 20px;
         text-decoration: none;
     }
+    
+    .services-container {
+        display: flex;
+        justify-content: space-around;
+        background-image: url(./images/n0UHgT.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+    
+    .services {
+        height: 400px;
+        width: 350px;
+        box-shadow: 3px 3px 12px rgba(3, 58, 109, 0.5);
+        border-radius: 20px;
+        margin: 80px;
+        background-color: seashell;
+    }
+    
+    .serviceheading {
+        background-image: url(./images/black-theme-tk16.jpg);
+        padding: 10px;
+    }
