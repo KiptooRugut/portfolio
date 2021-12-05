@@ -25,6 +25,6 @@ This services are:
 Details of my contacts.	
 
 
-## GitHub pages Link
+## gh-pages Link
 https://kiptoorugut.github.io/portfolio/
 
