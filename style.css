@@ -47,3 +47,108 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
 }
+
+section {
+    background-image: url(./images/vooYUM2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.details {
+    padding-top: 170px;
+    padding-left: 50px;
+}
+
+b .details {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.details h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.details p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 60px;
+    color: #6be746;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.details p:nth-child(3) {
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 20px;
+    color: #27c9bb;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.hireme,
+.downloadcv {
+    background-color: orange;
+    color: white;
+    border: none;
+    display: inline-block;
+    margin: 70px 50px;
+    border-radius: 5px;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.images shape {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.picmike {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-26%);
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .picmike {
+    left: 45%;
+}
+
+.social {
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a {
+    font-size: 30px;
+    color: #12f1f1;
+    margin-right: 20px;
+}
+
+.social a:hover {
+    color: orange;
+}
