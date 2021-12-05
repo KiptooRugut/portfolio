@@ -152,3 +152,15 @@ span {
 .social a:hover {
     color: orange;
 }
+
+.about {
+    display: flex;
+    background-image: url(./images/white-and-blue-abstract-background.png);
+    width: 80%;
+    height: 450px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin: 80px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
