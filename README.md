@@ -26,5 +26,5 @@ Details of my contacts.
 
 
 ## GitHub pages Link
-https://kiptoorugut.github.io/Lettuce_eat/
+https://kiptoorugut.github.io/portfolio/
 
