@@ -336,3 +336,18 @@
         padding: 10px;
         margin: 30px;
     }
+    
+    .contact {
+        background: #4f504f;
+    }
+    
+    .contact-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+    }
+    
+    .contact-info {
+        max-width: 500px;
+    }
