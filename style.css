@@ -367,3 +367,47 @@
         margin-left: 1rem;
         font-weight: 400;
     }
+    
+    .social {
+        display: flex;
+        align-items: center;
+    }
+    
+    .social a {
+        margin-right: 1rem;
+    }
+    
+    form {
+        max-width: 360px;
+        margin-top: 4rem;
+    }
+    
+    form input,
+    form textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        outline: none;
+        margin-bottom: 12px;
+        background: #2c3e50;
+        color: var(--primary);
+        border-bottom: 1px solid var(--primary);
+    }
+    
+    .form textarea {
+        height: 200px;
+        resize: none;
+    }
+    
+    .contact-button {
+        max-width: 100px;
+        font-weight: 600;
+        background: var(--primary);
+        color: white;
+        background-color: orange;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
