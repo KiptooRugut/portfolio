@@ -216,3 +216,50 @@
         padding: 30px;
         text-decoration: underline 10px green;
     }
+    
+    .p-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: auto;
+        background: #4f504f;
+        margin: 20px;
+        padding: 40px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .p-box:hover {
+        background: var(--primary);
+        transition: 0.5s ease;
+    }
+    
+    .p- img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .p-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20%;
+        border: 4px solid var(--primary);
+    }
+    
+    .p-box h2 {
+        font-weight: 600;
+        margin: 10px 0;
+        color: #12cee7;
+    }
+    
+    .p-box p {
+        font-weight: 400;
+        color: white;
+    }
+    
+    .portfolio a {
+        color: orange;
+        padding: 20px;
+        text-decoration: none;
+    }
