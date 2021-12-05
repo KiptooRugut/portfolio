@@ -351,3 +351,19 @@
     .contact-info {
         max-width: 500px;
     }
+    
+    .info-box {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    
+    .info-box i {
+        font-size: 20px;
+        color: var(--primary);
+    }
+    
+    .info-box p {
+        margin-left: 1rem;
+        font-weight: 400;
+    }
